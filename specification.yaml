@@ -1,0 +1,9 @@
+openapi: 3.0.3
+info:
+  title: info-panne-api
+  description: |-
+    an API
+  version: 0.0.1
+servers:
+  - url: "https://microcks-microcks.apps.cluster-8dcp2.dynamic.opentlc.com/rest/info-panne-api/0.0.1"
+paths: {}

@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: "info-panne-api"
+  title: "info-panne-api"
+  description: "an API"
+  annotations:
+    backstage.io/spectral-ruleset-url: https://raw.githubusercontent.com/janus-api-idp/api-spec-prototype/main/.spectral.yaml
+spec:
+  type: openapi
+  system: system:default/espace-client
+  owner: "group:default/backstage-admins"
+  lifecycle: experimental
+  definition:
+    $openapi: https://github.com/janus-api-idp/info-panne-api/blob/master/specification.yaml
